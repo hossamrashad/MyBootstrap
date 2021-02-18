@@ -34,7 +34,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
-        <button class="navbar-toggler toggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mytoggle" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span><i class="fa fa-home" aria-hidden="true"></i></span>
         </button>
 
@@ -67,10 +67,25 @@
             </ul>
 
         </div>
-        <a class="navbar-brand dir-rtl toggleElement" href="#"><img src="static/img/Egypt-Flag.png" alt="logo" style="width: 20%"></a>
+
+        <a class="navbar-brand dir-rtl toggleElement " href="#">
+            <img src="static/img/Egypt-Flag.png" alt="logo" style="width: 20%"></a>
     </nav>
 
     <!--end navbar-->
+
+
+
+
+    <!-- Start icon lang-->
+    <div class="iconLang" style="position: fixed; top: 60px;left: 18px;z-index: 99999;">
+        <button class="btn btn-info showLang"><i class="fa fa-globe"></i></button>
+        <ul class="list-unstyled toggleLang" style=" display: none;">
+            <li style="color: darksalmon;background-color: #52C6D8;width: 39px;padding: 3px;text-align: center;margin-top: 3px;margin-bottom: 3px;"><a href="index.html" style="list-style: none;text-decoration: none;color: #ffff;">En</a></li>
+            <li style="color: darksalmon;background-color: #52C6D8;width: 39px;padding: 3px;text-align: center;"><a href="index-ar.html" style="list-style: none;text-decoration: none;color: #ffff;">Ar</a></li>
+        </ul>
+    </div>
+    <!-- End iconLang-->
 
 
     <!-- Start slider-->
@@ -950,7 +965,6 @@
                 }
             });
         });
-
     </script>
 
 
@@ -980,7 +994,6 @@
                 }
             });
         });
-
     </script>
 
 
@@ -1003,7 +1016,6 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-
     </script>
     <script src="static/nicescroll/jquery.nicescroll.min.js"></script>
     <script src="static/nicescroll/start-nice-scroll.js"></script>
@@ -1011,7 +1023,6 @@
     <script src="static/js/wow.min.js"></script>
     <script>
         new WOW().init();
-
     </script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
@@ -1028,13 +1039,10 @@
                 type: 'image'
             });
         });
-
     </script>
 
 
 
 
     <script src="static/plugin.js"></script>
-</body>
-
-</html>
+</body></html>

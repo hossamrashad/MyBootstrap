@@ -81,8 +81,18 @@ $(function () {
     });
 });
 
-$(".toggle").on('click', function () {
+$(".mytoggle").on('click', function () {
 
     "use strict";
     $(".toggleElement").fadeToggle(10);
+});
+
+/******************************************************/
+
+$('.showLang').click(function () {
+
+    "use strict";
+
+    $('.toggleLang').slideToggle();
+
 });
